@@ -3,7 +3,14 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+.hero-image {
+  background-image: url("/Assets/Working\ out.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 26px;
+}
 .heading {
   background-color: #80e6cd;
   padding-top: 20px;
