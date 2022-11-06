@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Styling the header */
+header {
+  background-color: #88a894;
+}
+
+/* Styling the logo */
+#page-logo a {
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  color: #024711;
+}
+/* the page logo is a little bit to see if its a link or not so I gave it a hover effect with underline to showcase that it is a link */
+#page-logo a:hover {
+  text-decoration: underline;
+}
+
+/* Aligning the about me and conta information to make it look more like a nav */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  font-size: 19px;
+  color: #024711;
+}
+
+header li {
+  margin: 20px 10px;
+}
+
+header a {
+  color: #024711;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #05701c;
+}
