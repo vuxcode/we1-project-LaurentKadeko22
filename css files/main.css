@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  /* Fixing the margin collapse */
+  padding: 20px;
+  background: url("/imgs/Beautiful\ landscape.jpg");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(0);
+}
