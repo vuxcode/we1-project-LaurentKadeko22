@@ -1,15 +1,53 @@
 body {
   margin: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .main-section {
   /* Fixing the margin collapse */
   padding: 20px;
   background: url("/imgs/Beautiful\ landscape.jpg");
-  height: 70vh;
+  height: 75vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   filter: blur(0);
+}
+
+.laurent-kadeko-card {
+  background-color: #7d9c97;
+  width: 50vh;
+  height: 65vh;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+/* inside laurent kadeko card */
+.laurent-kadeko {
+  height: 50vh;
+}
+
+/* gave the parent footer a background gradient */
+footer {
+  padding: 20px 10px;
+  background: linear-gradient(50deg, #89978d, #79dc97);
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+footer li {
+  width: 80px;
+  height: 70px;
+  list-style: none;
+  margin: 0 40px;
+}
+
+footer img {
+  width: 100%;
+  height: 100%;
 }
